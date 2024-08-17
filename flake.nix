@@ -77,8 +77,11 @@
 
           # Programs you want to make available in the shell.
           # Default programs can be disabled by setting to 'null'
-          devShell.tools = hp: {
-            inherit (hp) hlint stylish-haskell;
+          devShell = {
+            hoogle = false;
+            tools = hp: {
+              inherit (hp) hlint stylish-haskell;
+            };
           };
         };
 

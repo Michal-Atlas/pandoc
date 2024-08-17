@@ -102,6 +102,7 @@ import Text.Pandoc.Writers.Docx
 import Text.Pandoc.Writers.DokuWiki
 import Text.Pandoc.Writers.EPUB
 import Text.Pandoc.Writers.FB2
+import Text.Pandoc.Writers.Gemtext
 import Text.Pandoc.Writers.Ipynb
 import Text.Pandoc.Writers.Haddock
 import Text.Pandoc.Writers.HTML
@@ -144,6 +145,7 @@ writers = [
   ,("epub2"        , ByteStringWriter writeEPUB2)
   ,("epub3"        , ByteStringWriter writeEPUB3)
   ,("fb2"          , TextWriter writeFB2)
+  ,("gemtext"      , TextWriter writeGemtext)
   ,("ipynb"        , TextWriter writeIpynb)
   ,("html"         , TextWriter writeHtml5String)
   ,("html4"        , TextWriter writeHtml4String)

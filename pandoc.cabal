@@ -601,6 +601,7 @@ library
                    Text.Pandoc.Writers.ChunkedHTML,
                    Text.Pandoc.Writers.Ipynb,
                    Text.Pandoc.Writers.ICML,
+                   Text.Pandoc.Writers.Gemtext,
                    Text.Pandoc.Writers.Jira,
                    Text.Pandoc.Writers.LaTeX,
                    Text.Pandoc.Writers.ConTeXt,
